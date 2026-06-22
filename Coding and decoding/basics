@@ -1,0 +1,120 @@
+# Reasoning Day 2 - Coding Decoding
+
+## Alphabet Positions
+
+A = 1
+B = 2
+C = 3
+D = 4
+E = 5
+F = 6
+G = 7
+H = 8
+I = 9
+J = 10
+K = 11
+L = 12
+M = 13
+N = 14
+O = 15
+P = 16
+Q = 17
+R = 18
+S = 19
+T = 20
+U = 21
+V = 22
+W = 23
+X = 24
+Y = 25
+Z = 26
+
+--------------------------------
+
+## Solved Examples
+
+### Example 1
+
+CAT
+
+C = 3
+A = 1
+T = 20
+
+Answer:
+CAT = 3 1 20
+
+--------------------------------
+
+### Example 2
+
+DOG
+
+D = 4
+O = 15
+G = 7
+
+Answer:
+DOG = 4 15 7
+
+--------------------------------
+
+### Example 3
+
+BAT
+
+B = 2
+A = 1
+T = 20
+
+Answer:
+BAT = 2 1 20
+
+--------------------------------
+
+### Example 4
+
+ACE
+
+A = 1
+C = 3
+E = 5
+
+Answer:
+ACE = 1 3 5
+
+--------------------------------
+
+### Example 5
+
+BAD
+
+B = 2
+A = 1
+D = 4
+
+Answer:
+BAD = 2 1 4
+
+--------------------------------
+
+## Important Shortcut
+
+A-M = 1-13
+
+N-Z = 14-26
+
+Example:
+
+M = 13
+N = 14
+Z = 26
+
+--------------------------------
+
+## Interview Tips
+
+1. Remember alphabet positions.
+2. Practice common words.
+3. Identify patterns quickly.
+4. Check if coding uses positions, reverse positions, or shifts.
