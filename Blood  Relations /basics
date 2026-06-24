@@ -1,0 +1,51 @@
+# Reasoning Day 3 - Blood Relations
+
+Example 1
+
+Ravi is the son of Sita.
+
+Who is Sita to Ravi?
+
+Answer:
+Mother
+
+--------------------------------
+
+Example 2
+
+Anu is the daughter of Ram.
+
+Who is Ram to Anu?
+
+Answer:
+Father
+
+--------------------------------
+
+Example 3
+
+Ravi is the brother of Anu.
+
+Who is Anu to Ravi?
+
+Answer:
+Sister
+
+--------------------------------
+
+Example 4
+
+Sita is the mother of Ravi.
+
+Who is Ravi to Sita?
+
+Answer:
+Son
+
+--------------------------------
+
+Shortcut
+
+Son ↔ Father/Mother
+Brother ↔ Sister
+Daughter ↔ Father/Mother
