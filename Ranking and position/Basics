@@ -1,0 +1,54 @@
+# Reasoning Day 5 - Ranking and Position
+
+## Formula 1
+
+Total Students = Top Rank + Bottom Rank - 1
+
+----------------------------------
+
+## Formula 2
+
+Bottom Rank = Total Students - Top Rank + 1
+
+----------------------------------
+
+## Formula 3
+
+Top Rank = Total Students - Bottom Rank + 1
+
+----------------------------------
+
+## Example 1
+
+Top = 5
+Bottom = 6
+
+Total = 5 + 6 - 1 = 10
+
+----------------------------------
+
+## Example 2
+
+Total = 20
+Top = 7
+
+Bottom = 20 - 7 + 1 = 14
+
+----------------------------------
+
+## Example 3
+
+Total = 25
+Bottom = 10
+
+Top = 25 - 10 + 1 = 16
+
+----------------------------------
+
+## Shortcut
+
+Total = Top + Bottom - 1
+
+Bottom = Total - Top + 1
+
+Top = Total - Bottom + 1
