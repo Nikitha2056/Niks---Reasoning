@@ -1,0 +1,79 @@
+# Reasoning Day 4 - Direction Sense
+
+Directions
+
+          North
+             ↑
+West ←           → East
+             ↓
+          South
+
+--------------------------------
+
+Turning Rules
+
+Facing North
+
+Left  → West
+Right → East
+
+Facing East
+
+Left  → North
+Right → South
+
+Facing South
+
+Left  → East
+Right → West
+
+Facing West
+
+Left  → South
+Right → North
+
+--------------------------------
+
+Examples
+
+North + Right = East
+
+East + Left = North
+
+South + Right = West
+
+West + Left = South
+
+--------------------------------
+
+Multiple Turns
+
+North
+Right
+Right
+
+= South
+
+-----------------------------
+
+East
+Left
+Left
+
+= West
+
+-----------------------------
+
+South
+Left
+Right
+
+= South
+
+--------------------------------
+
+Shortcut
+
+Right = Clockwise
+
+Left = Anti-clockwise
