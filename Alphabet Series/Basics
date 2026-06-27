@@ -1,0 +1,118 @@
+# Reasoning Day 6 - Alphabet Series
+
+Alphabet Positions
+
+A = 1
+B = 2
+C = 3
+D = 4
+E = 5
+
+...
+
+Z = 26
+
+----------------------------------
+
+Pattern Types
+
++2 Pattern
+
+A C E G I
+
+Answer = K
+
+----------------------------------
+
++3 Pattern
+
+B E H K
+
+Answer = N
+
+----------------------------------
+
+Increasing Pattern
+
+A C F J O
+
+Differences
+
++2 +3 +4 +5
+
+----------------------------------
+
+Decreasing Pattern
+
+Z X V T R
+
+Differences
+
+-2 -2 -2 -2
+
+----------------------------------
+
+Examples
+
+C E G I ?
+
+Answer = K
+
+----------------------------------
+
+A C F J ?
+
+Answer = O
+
+----------------------------------
+
+Z X V T ?
+
+Answer = R
+
+----------------------------------
+
+B E H K ?
+
+Answer = N
+
+----------------------------------
+
+D H M S ?
+
+Answer = Z
+
+Pattern
+
++4 +5 +6 +7
+
+----------------------------------
+
+Y W U S ?
+
+Answer = Q
+
+Pattern
+
+-2
+
+----------------------------------
+
+Shortcut
+
+Positive values
+→ Move Forward
+
+Negative values
+→ Move Backward
+
+----------------------------------
+
+Topics Covered
+
+✅ Alphabet Positions
+✅ Alphabet Series
+✅ Increasing Patterns
+✅ Decreasing Patterns
+
+Reasoning Day 6 Completed
