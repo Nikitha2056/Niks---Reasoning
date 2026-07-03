@@ -1,0 +1,134 @@
+# Reasoning Day 8 - Blood Relations
+
+Basic Relations
+
+Father's Father = Grandfather
+
+Father's Mother = Grandmother
+
+Mother's Brother = Uncle
+
+Mother's Sister = Aunt
+
+Brother's Son = Nephew
+
+Brother's Daughter = Niece
+
+Son's Son = Grandson
+
+Son's Daughter = Granddaughter
+
+----------------------------------
+
+Example 1
+
+A is the son of B.
+
+B is the father of C.
+
+Answer
+
+Brother
+
+----------------------------------
+
+Example 2
+
+P is the mother of Q.
+
+Q is the sister of R.
+
+Answer
+
+Mother
+
+----------------------------------
+
+Example 3
+
+A is the brother of B.
+
+B is the mother of C.
+
+Answer
+
+Uncle
+
+----------------------------------
+
+Practice
+
+A is the father of B.
+
+B is the father of C.
+
+Answer
+
+Grandfather
+
+----------------------------------
+
+P is the sister of Q.
+
+Q is the father of R.
+
+Answer
+
+Aunt
+
+----------------------------------
+
+M is the mother of N.
+
+N is the brother of O.
+
+Answer
+
+Mother
+
+----------------------------------
+
+Level 2
+
+A is the brother of B.
+
+B is the sister of C.
+
+Answer
+
+Brother
+
+----------------------------------
+
+P is the father of Q.
+
+Q is the mother of R.
+
+Answer
+
+Grandfather
+
+----------------------------------
+
+X is the son of Y.
+
+Y is the daughter of Z.
+
+Answer
+
+Grandmother
+
+----------------------------------
+
+Topics Covered
+
+✅ Blood Relations
+✅ Family Tree Questions
+✅ Grandfather
+✅ Grandmother
+✅ Uncle
+✅ Aunt
+
+Reasoning Day 8 Completed
+
+XP : 200/200 🔥
