@@ -1,0 +1,260 @@
+# 🚀 Reasoning Day 9 – Direction Sense
+
+> 📌 Difficulty : Easy–Medium
+>
+> 🎯 Category : Reasoning
+>
+> ⭐ Interview Importance : High
+>
+> ⏳ Revision Time : 5 Minutes
+>
+> 🔥 XP Earned : 200 XP
+
+---
+
+# 📝 Problem Statement
+
+Direction Sense questions test our ability to determine the final direction, distance and position after movements.
+
+---
+
+# 🧭 Basic Directions
+
+```text
+            North
+              ↑
+
+West    ←     ●     → East
+
+              ↓
+            South
+```
+
+---
+
+# 💡 Concepts
+
+### Right Turn
+
+```text
+North → East
+
+East → South
+
+South → West
+
+West → North
+```
+
+### Left Turn
+
+```text
+North → West
+
+West → South
+
+South → East
+
+East → North
+```
+
+---
+
+# 🧠 Memory Trick
+
+```text
+RIGHT TURN
+
+N → E
+
+E → S
+
+S → W
+
+W → N
+
+-----------------
+
+LEFT TURN
+
+N → W
+
+W → S
+
+S → E
+
+E → N
+```
+
+---
+
+# 📌 Important Rules
+
+### Four Right Turns
+
+```text
+Same Direction
+```
+
+### Four Left Turns
+
+```text
+Same Direction
+```
+
+### Two Right Turns
+
+```text
+Opposite Direction
+```
+
+### Two Left Turns
+
+```text
+Opposite Direction
+```
+
+---
+
+# 🔍 Example 1
+
+A person faces North.
+
+Turns right.
+
+Direction?
+
+Answer
+
+```text
+East
+```
+
+---
+
+# 🔍 Example 2
+
+A person faces South.
+
+Turns left.
+
+Direction?
+
+Answer
+
+```text
+East
+```
+
+---
+
+# 🔍 Example 3
+
+A person faces West.
+
+Turns right.
+
+Turns left.
+
+Turns left.
+
+Direction?
+
+Answer
+
+```text
+South
+```
+
+---
+
+# ⚡ Shortcut Table
+
+| Facing | Right | Left |
+|--------|-------|------|
+| North | East | West |
+| East | South | North |
+| South | West | East |
+| West | North | South |
+
+---
+
+# ❌ Common Mistakes
+
+🔴 Confusing left and right
+
+🔴 Forgetting starting direction
+
+🔴 Not drawing the compass
+
+---
+
+# 🎯 Practice Questions
+
+⭐ One turn
+
+⭐⭐ Two turns
+
+⭐⭐⭐ Multiple turns
+
+---
+
+# 🧠 Quick Revision
+
+```text
+North
+
+↓
+
+Right
+
+↓
+
+East
+
+↓
+
+Right
+
+↓
+
+South
+
+↓
+
+Left
+
+↓
+
+East
+```
+
+---
+
+# 📚 Interview Corner
+
+Asked in
+
+✅ TCS
+
+✅ Infosys
+
+✅ Accenture
+
+✅ Cognizant
+
+---
+
+# 🏆 Status
+
+✅ Completed
+
+🔥 XP : 200
+
+📅 Day 19
+
+---
+
+# 📈 Confidence Meter
+
+⭐⭐⭐⭐⭐
