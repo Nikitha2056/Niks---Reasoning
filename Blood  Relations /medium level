@@ -1,0 +1,607 @@
+# 🚀 Reasoning Day 22 – Blood Relations
+
+> 📌 Difficulty : Easy–Medium
+>
+> 🎯 Category : Reasoning
+>
+> ⭐ Interview Importance : ⭐⭐⭐⭐⭐
+>
+> ⏳ Revision Time : 20 Minutes
+>
+> 🔥 XP : 250
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 📝 Problem Statement
+
+Blood Relation questions test your ability to identify relationships between family members using logical reasoning.
+
+These questions are frequently asked in placement exams like:
+
+✅ TCS
+
+✅ Infosys
+
+✅ Accenture
+
+✅ Cognizant
+
+✅ Capgemini
+
+✅ Wipro
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 👨‍👩‍👧 Basic Family Tree
+
+```text
+                 Grandfather ───── Grandmother
+                        │
+          ┌─────────────┴─────────────┐
+       Father                     Uncle
+          │
+     ┌────┴─────┐
+   You       Sister
+
+Uncle
+│
+├── Cousin
+└── Cousin
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 👨 Important Family Relations
+
+| Relation | Meaning |
+|----------|---------|
+| Father's Father | Grandfather |
+| Father's Mother | Grandmother |
+| Mother's Father | Grandfather |
+| Mother's Mother | Grandmother |
+| Father's Brother | Uncle |
+| Mother's Brother | Uncle |
+| Father's Sister | Aunt |
+| Mother's Sister | Aunt |
+| Uncle's Son | Cousin |
+| Aunt's Daughter | Cousin |
+| Brother's Son | Nephew |
+| Brother's Daughter | Niece |
+| Sister's Son | Nephew |
+| Sister's Daughter | Niece |
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 🧠 Memory Tricks
+
+```text
+Father's Father
+
+↓
+
+Grandfather
+
+━━━━━━━━━━━━━━
+
+Mother's Brother
+
+↓
+
+Uncle
+
+━━━━━━━━━━━━━━
+
+Father's Sister
+
+↓
+
+Aunt
+
+━━━━━━━━━━━━━━
+
+Brother's Son
+
+↓
+
+Nephew
+
+━━━━━━━━━━━━━━
+
+Sister's Daughter
+
+↓
+
+Niece
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# ⭐ Step-by-Step Method
+
+Whenever you see a Blood Relation question:
+
+```text
+Step 1
+
+↓
+
+Find the middle person.
+
+━━━━━━━━━━━━━━
+
+Step 2
+
+↓
+
+Draw a small family tree.
+
+━━━━━━━━━━━━━━
+
+Step 3
+
+↓
+
+Move from one relation to another.
+
+━━━━━━━━━━━━━━
+
+Step 4
+
+↓
+
+Identify the final relation.
+```
+
+Never solve long blood relation questions only in your head.
+
+Drawing a quick tree saves time.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 🔍 Dry Run 1
+
+Question
+
+"He is the son of my grandfather's only son."
+
+Step 1
+
+```text
+Grandfather
+
+↓
+
+Only Son
+
+↓
+
+Father
+```
+
+Step 2
+
+```text
+Father
+
+↓
+
+Son
+
+↓
+
+Ravi or Ravi's Brother
+```
+
+Since the question points to another man,
+
+Answer
+
+```text
+Brother
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 🔍 Dry Run 2
+
+Question
+
+"The girl is the daughter of my mother's only daughter."
+
+Step 1
+
+```text
+Mother
+
+↓
+
+Only Daughter
+
+↓
+
+Woman herself
+```
+
+Step 2
+
+```text
+Woman
+
+↓
+
+Daughter
+```
+
+Answer
+
+```text
+Daughter
+```
+
+⚠ Common Trap
+
+Many students answer **Sister**.
+
+Remember,
+
+"My mother's only daughter"
+
+means **the speaker herself** (assuming she has no sister).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 🔍 Dry Run 3
+
+Question
+
+"She is the daughter of the only child of my father."
+
+Step 1
+
+```text
+Father
+
+↓
+
+Only Child
+
+↓
+
+Ram
+```
+
+Step 2
+
+```text
+Ram
+
+↓
+
+Daughter
+```
+
+Answer
+
+```text
+Daughter
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 🔍 Dry Run 4
+
+Question
+
+A is the brother of B.
+
+B is the sister of C.
+
+C is the father of D.
+
+Family Tree
+
+```text
+        Parents
+
+      /    |    \
+
+     A     B     C
+
+                │
+
+                D
+```
+
+Relationship
+
+```text
+A
+
+↓
+
+Brother of D's Father
+
+↓
+
+Uncle
+```
+
+Answer
+
+```text
+Uncle
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 💻 Solved Practice Questions
+
+### Q1
+
+"He is the son of my grandfather's only son."
+
+Answer
+
+Brother
+
+━━━━━━━━━━━━━━
+
+### Q2
+
+"The girl is the daughter of my mother's only daughter."
+
+Answer
+
+Daughter
+
+━━━━━━━━━━━━━━
+
+### Q3
+
+"She is the daughter of the only child of my father."
+
+Answer
+
+Daughter
+
+━━━━━━━━━━━━━━
+
+### Q4
+
+A is brother of B.
+
+B is sister of C.
+
+C is father of D.
+
+Answer
+
+Uncle
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 🧠 Quick Revision
+
+```text
+Grandfather
+
+↓
+
+Father's Father
+
+━━━━━━━━━━━━━━
+
+Grandmother
+
+↓
+
+Father's Mother
+
+━━━━━━━━━━━━━━
+
+Uncle
+
+↓
+
+Father's Brother
+
+or
+
+Mother's Brother
+
+━━━━━━━━━━━━━━
+
+Aunt
+
+↓
+
+Father's Sister
+
+or
+
+Mother's Sister
+
+━━━━━━━━━━━━━━
+
+Cousin
+
+↓
+
+Uncle's Child
+
+or
+
+Aunt's Child
+
+━━━━━━━━━━━━━━
+
+Nephew
+
+↓
+
+Brother's Son
+
+or
+
+Sister's Son
+
+━━━━━━━━━━━━━━
+
+Niece
+
+↓
+
+Brother's Daughter
+
+or
+
+Sister's Daughter
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# ❌ Common Mistakes
+
+🔴 Solving without drawing a family tree.
+
+🔴 Confusing "only son" with "only child."
+
+🔴 Ignoring words like "only."
+
+🔴 Confusing Uncle and Cousin.
+
+🔴 Forgetting that the speaker may refer to themselves.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 🎯 Interview Tips
+
+Whenever you see:
+
+```text
+Only Son
+
+↓
+
+Father
+
+━━━━━━━━━━━━━━
+
+Only Daughter
+
+↓
+
+Speaker (if female)
+
+━━━━━━━━━━━━━━
+
+Only Child
+
+↓
+
+One person only
+
+━━━━━━━━━━━━━━
+
+Father's Brother
+
+↓
+
+Uncle
+
+━━━━━━━━━━━━━━
+
+Mother's Sister
+
+↓
+
+Aunt
+```
+
+Always solve step by step instead of guessing.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 🎯 Practice Questions
+
+### Q1
+
+Pointing to a girl, Rahul says,
+
+"She is the daughter of my father's only son."
+
+Answer = ?
+
+━━━━━━━━━━━━━━
+
+### Q2
+
+A woman says,
+
+"The boy is the son of my husband's brother."
+
+Answer = ?
+
+━━━━━━━━━━━━━━
+
+### Q3
+
+A is the father of B.
+
+B is the sister of C.
+
+C is the father of D.
+
+How is A related to D?
+
+━━━━━━━━━━━━━━
+
+### Q4
+
+Pointing to a man,
+
+Ravi says,
+
+"He is my mother's brother."
+
+Answer = ?
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 🌟 Interview Corner
+
+Frequently Asked In
+
+✅ TCS
+
+✅ Infosys
+
+✅ Accenture
+
+✅ Cognizant
+
+✅ Capgemini
+
+✅ Wipro
+
+✅ Deloitte
+
+✅ Tech Mahindra
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 📈 Confidence Meter
+
+⭐⭐⭐⭐⭐
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 🏆 Status
+
+✅ Blood Relations Completed
+
+🔥 XP Earned : 250
+
+📅 Day 22
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
