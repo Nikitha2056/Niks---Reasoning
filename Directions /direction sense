@@ -258,3 +258,518 @@ Asked in
 # 📈 Confidence Meter
 
 ⭐⭐⭐⭐⭐
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 🚀 Reasoning Day 24 – Direction Sense (Distance)
+
+> 📌 Difficulty: Easy → Medium
+>
+> 🎯 Category: Reasoning
+>
+> ⭐ Interview Importance: ⭐⭐⭐⭐⭐
+>
+> ⏳ Revision Time: 20 Minutes
+>
+> 🔥 XP: 200
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 📝 Introduction
+
+Direction Sense questions test your ability to determine the **final direction** or **position** after moving in different directions.
+
+These questions are frequently asked in placement exams such as:
+
+- TCS
+- Infosys
+- Accenture
+- Cognizant
+- Capgemini
+- Wipro
+- Deloitte
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 🧭 Basic Directions
+
+```text
+                 North
+                   ↑
+                   |
+West  ←────────────┼────────────→  East
+                   |
+                   ↓
+                 South
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 📘 Right Turn Rule
+
+Whenever you turn right, move clockwise.
+
+```text
+North
+   ↓
+East
+   ↓
+South
+   ↓
+West
+   ↓
+North
+```
+
+Memory Trick
+
+```text
+N → E → S → W
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 📘 Left Turn Rule
+
+Whenever you turn left, move anti-clockwise.
+
+```text
+North
+   ↓
+West
+   ↓
+South
+   ↓
+East
+   ↓
+North
+```
+
+Memory Trick
+
+```text
+N → W → S → E
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 🌍 Real-Life Example
+
+Suppose you start from your home.
+
+```text
+Walk 10 m North
+
+↓
+
+Turn Right
+
+↓
+
+Walk 5 m East
+```
+
+Final Direction
+
+```text
+East
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 📘 Example 1
+
+A person starts facing **North**.
+
+- Walks 10 m
+- Turns Right
+- Walks 15 m
+
+Solution
+
+```text
+North
+
+↓
+
+Right
+
+↓
+
+East
+```
+
+Final Direction
+
+```text
+East
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 📘 Example 2
+
+A person starts facing **East**.
+
+- Walks 20 m
+- Turns Left
+- Walks 10 m
+
+Solution
+
+```text
+East
+
+↓
+
+Left
+
+↓
+
+North
+```
+
+Final Direction
+
+```text
+North
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 📘 Example 3
+
+A person starts facing **South**.
+
+- Walks 15 m
+- Turns Left
+- Walks 5 m
+
+Solution
+
+```text
+South
+
+↓
+
+Left
+
+↓
+
+East
+```
+
+Final Direction
+
+```text
+East
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 📘 Example 4
+
+A person starts facing **West**.
+
+- Walks 8 m
+- Turns Right
+- Walks 12 m
+
+Solution
+
+```text
+West
+
+↓
+
+Right
+
+↓
+
+North
+```
+
+Final Direction
+
+```text
+North
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 📘 Example 5 (Interview Level)
+
+A person starts facing **North**.
+
+- Walks 10 m
+- Turns Right
+- Walks 10 m
+- Turns Right
+- Walks 5 m
+
+Solution
+
+```text
+North
+
+↓
+
+East
+
+↓
+
+South
+```
+
+Final Direction
+
+```text
+South
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 🧠 Memory Tricks
+
+## Right Turn
+
+```text
+N → E → S → W
+```
+
+Clockwise 🔄
+
+━━━━━━━━━━━━━━
+
+## Left Turn
+
+```text
+N → W → S → E
+```
+
+Anti-clockwise 🔄
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 💻 Practice Questions
+
+### Q1
+
+A person starts facing **East**.
+
+- Turns Right
+- Turns Left
+- Turns Right
+
+Final Direction = ?
+
+━━━━━━━━━━━━━━
+
+### Q2
+
+A person starts facing **South**.
+
+- Turns Left
+- Turns Left
+
+Final Direction = ?
+
+━━━━━━━━━━━━━━
+
+### Q3
+
+A person starts facing **West**.
+
+- Turns Right
+- Turns Right
+- Turns Left
+
+Final Direction = ?
+
+━━━━━━━━━━━━━━
+
+### ⭐ Interview Question
+
+A person starts facing **North**.
+
+- Turns Left
+- Turns Right
+- Turns Right
+- Turns Left
+
+Final Direction = ?
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# ❌ Common Mistakes
+
+### Mistake 1
+
+Confusing Left with Right.
+
+Remember
+
+```text
+Right
+
+↓
+
+Clockwise
+
+━━━━━━━━━━━━━━
+
+Left
+
+↓
+
+Anti-clockwise
+```
+
+━━━━━━━━━━━━━━
+
+### Mistake 2
+
+Trying to solve all turns mentally.
+
+Correct Method
+
+```text
+One Turn
+
+↓
+
+Update Direction
+
+↓
+
+Next Turn
+```
+
+━━━━━━━━━━━━━━
+
+### Mistake 3
+
+Ignoring the starting direction.
+
+Always begin from the given direction before applying turns.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 🎯 Interview Tips
+
+Always solve Direction Sense questions using this order:
+
+```text
+Starting Direction
+
+↓
+
+Walk
+
+↓
+
+Turn
+
+↓
+
+Update Direction
+
+↓
+
+Repeat
+
+↓
+
+Final Direction
+```
+
+Never skip any step.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 📚 Quick Revision
+
+```text
+Right Turn
+
+↓
+
+N → E → S → W
+
+━━━━━━━━━━━━━━
+
+Left Turn
+
+↓
+
+N → W → S → E
+
+━━━━━━━━━━━━━━
+
+Clockwise
+
+↓
+
+Right
+
+━━━━━━━━━━━━━━
+
+Anti-clockwise
+
+↓
+
+Left
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 🏆 Day 24 Status
+
+```text
+✅ Direction Sense (Distance)
+
+🔥 XP Earned : 200
+
+📅 Reasoning Day 24 Completed
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 📈 Confidence Meter
+
+⭐⭐⭐⭐⭐
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 🎯 Frequently Asked In
+
+✅ TCS
+
+✅ Infosys
+
+✅ Accenture
+
+✅ Cognizant
+
+✅ Capgemini
+
+✅ Wipro
+
+✅ Deloitte
+
+✅ Tech Mahindra
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
